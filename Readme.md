@@ -26,9 +26,9 @@ import Snow from 'snow-cvs';
 ## Methods & Examples
 
 - **getCanvas(): HTMLCanvasElement**    
-```html
-Snow.getCanvas()
-<canvas width="1366" height="354"></canvas>
+```js
+Snow.getCanvas() // return HTMLCanvasElement
+document.body.appendChild(Snow.getCanvas())
 ```
 
 ## License
