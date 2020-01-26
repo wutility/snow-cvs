@@ -1,0 +1,34 @@
+{
+  "name": "canvas-snow",
+  "version": "1.0.0",
+  "module": "dist/index.esm.js",
+  "browser":"dist/index.js",
+  "description": "nice snow animation using canvas",
+  "main": "snowball.js",
+  "author": "Haikel Fazzani",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "build": "rmdir /S /Q dist && rollup --config"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "rollup": "^1.29.1",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+  "repository": { 
+    "type": "git",
+    "url": "https://github.com/haikelfazzani/canvas-snow.git"
+  },
+  "homepage": "https://github.com/haikelfazzani/canvas-snow",
+  "bugs": {
+    "url": "https://github.com/haikelfazzani/canvas-snow/issues",
+    "email": "haikel.fazzani@gmail.com"
+  },
+  "keywords": [
+    "canvas",
+    "snow",
+    "animation"
+  ]
+}

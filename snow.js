@@ -30,7 +30,7 @@ class SnowFlake {
   }
 }
 
-class Snow {
+export default class Snow {
   constructor () {
     this.canvas = document.createElement('canvas');
     this.ctx = this.canvas.getContext('2d');
@@ -79,5 +79,3 @@ class Snow {
 
   getCanvas () { return this.canvas; }
 }
-
-document.body.appendChild(new Snow().getCanvas());
