@@ -1,3 +1,3 @@
 # Nice snow canvas
 
-![Capture](snow-canvas.gif)
+### [Demo](https://snow-canvas.neocities.org)
