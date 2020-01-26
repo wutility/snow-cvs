@@ -1,6 +1,6 @@
 {
-  "name": "canvas-snow",
-  "version": "1.0.0",
+  "name": "snow-cvs",
+  "version": "1.0.1",
   "module": "dist/index.esm.js",
   "browser": "dist/index.js",
   "description": "nice snow animation using canvas",
@@ -10,8 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
-    "clean": "rmdir /S /Q dist",
-    "build": "npm clean && rollup --config"
+    "build": "rmdir /S /Q dist && rollup --config"
   },
   "devDependencies": {
     "lite-server": "^2.5.4",
@@ -20,16 +19,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/haikelfazzani/canvas-snow.git"
+    "url": "https://github.com/haikelfazzani/snow-cvs.git"
   },
-  "homepage": "https://github.com/haikelfazzani/canvas-snow",
+  "homepage": "https://github.com/haikelfazzani/snow-cvs",
   "bugs": {
-    "url": "https://github.com/haikelfazzani/canvas-snow/issues",
+    "url": "https://github.com/haikelfazzani/snow-cvs/issues",
     "email": "haikel.fazzani@gmail.com"
   },
   "keywords": [
     "canvas",
     "snow",
-    "animation"
+    "animation",
+    "umd",
+    "esm"
   ]
 }

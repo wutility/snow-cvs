@@ -5,9 +5,7 @@ package.json
 
 tests/
 demo/
+snow.js
 
 rollup.config.js
 bs-config.json
-
-style.css
-index.html

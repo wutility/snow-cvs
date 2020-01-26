@@ -1,17 +1,18 @@
-# Nice snow canvas  
+# ❄️ Nice snow canvas  
+Nice snow animation using canvas
 
 ### [Demo](https://snow-canvas.neocities.org)
 
-[![](https://data.jsdelivr.com/v1/package/npm/canvas-snow/badge)](https://www.jsdelivr.com/package/npm/canvas-snow) ![Snyk badge](https://snyk.io/test/github/haikelfazzani/canvas-snow/badge.svg) ![bundlephobia badge](https://badgen.net/bundlephobia/min/canvas-snow) ![bundlephobia badge](https://badgen.net/bundlephobia/minzip/canvas-snow)
+[![](https://data.jsdelivr.com/v1/package/npm/snow-cvs/badge)](https://www.jsdelivr.com/package/npm/snow-cvs) ![bundlephobia badge](https://badgen.net/bundlephobia/min/snow-cvs) ![bundlephobia badge](https://badgen.net/bundlephobia/minzip/snow-cvs)
 
 
 ```js
-$ npm i canvas-snow --save
+$ npm i snow-cvs --save
 ```
 
 ### CDN
 ```html
-<script src="https://cdn.jsdelivr.net/npm/canvas-snow@1.0.0/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/snow-cvs@1.0.1/dist/index.min.js"></script>
 access via object : Snow
 Example : Snow.getCanvas()
 <canvas width="1366" height="354"></canvas>
@@ -19,7 +20,7 @@ Example : Snow.getCanvas()
 
 ## Usage
 ```
-import Snow from 'canvas-snow';
+import Snow from 'snow-cvs';
 ```
 
 ## Methods & Examples
