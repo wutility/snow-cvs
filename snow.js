@@ -33,7 +33,8 @@ class SnowFlake {
 class SnowCanvas {
   constructor () {
     this.canvas = document.createElement('canvas');
-    this.ctx = this.canvas.getContext('2d');
+    this.canvas.id = 'snow-canvas';
+    this.ctx = this.canvas.getContext('2d');    
 
     window.addEventListener('resize', () => this.onResize());
     this.onResize();

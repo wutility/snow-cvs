@@ -12,7 +12,7 @@ $ npm i snow-cvs --save
 
 ### CDN
 ```html
-<script src="https://cdn.jsdelivr.net/npm/snow-cvs@1.0.1/dist/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/snow-cvs@1.0.2/dist/index.min.js"></script>
 access via object : Snow
 Example : Snow.getCanvas()
 <canvas width="1366" height="354"></canvas>

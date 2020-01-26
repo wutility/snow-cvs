@@ -1,6 +1,6 @@
 {
   "name": "snow-cvs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "module": "dist/index.esm.js",
   "browser": "dist/index.js",
   "description": "nice snow animation using canvas",
