@@ -19,8 +19,8 @@ class SnowFlake {
   reset () {
     this.x = this.rand(0, window.innerWidth);
     this.y = this.rand(0, -window.innerHeight);
-    this.vx = this.rand(3, -3);
-    this.vy = this.rand(2, 5);
+    this.vx = this.rand(2, -2);
+    this.vy = this.rand(2, 4);
     this.raduis = this.rand(1, 2);
     this.alpha = this.rand(0.1, 0.8);
   }
