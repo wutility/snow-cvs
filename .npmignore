@@ -1,6 +1,7 @@
 node_modules/
 tests/
 demo/
+src/
 
 snow.js
 .vscode

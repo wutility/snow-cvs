@@ -9,7 +9,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "servino",
-    "build": "rmdir /S /Q dist && rollup -c"
+    "watch": "rollup -w -c",
+    "clean": "rmdir /S /Q dist",
+    "build": "rollup -c"
   },
   "repository": "https://github.com/haikelfazzani/snow-cvs.git",
   "homepage": "https://github.com/haikelfazzani/snow-cvs",

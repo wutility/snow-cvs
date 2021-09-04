@@ -1,7 +1,7 @@
 # ❄️ Nice snow canvas  
 Nice snow animation using canvas
 
-### [Demo](https://snow-canvas.neocities.org)
+### [Demo](https://wutility.github.io/snow-cvs)
 
 ![snow animation](https://badgen.net/npm/dt/hixo)  [![](https://data.jsdelivr.com/v1/package/npm/snow-cvs/badge)](https://www.jsdelivr.com/package/npm/snow-cvs) ![bundlephobia badge](https://badgen.net/bundlephobia/min/snow-cvs) ![bundlephobia badge](https://badgen.net/bundlephobia/minzip/snow-cvs)
 
@@ -13,19 +13,24 @@ $ npm i snow-cvs --save
 ### CDN
 ```html
 <script src="https://cdn.jsdelivr.net/npm/snow-cvs/dist/index.min.js"></script>
-<!-- access via object : Snow -->
+<!-- access via object : SnowCanvas -->
 ```
 
 ## Usage
 ```
-import Snow from 'snow-cvs';
+import SnowCanvas from 'snow-cvs';
 ```
 
-## Methods & Examples
+## Examples
 
-- **getCanvas(): HTMLCanvasElement**    
 ```js
-const canvas = Snow.getCanvas();
+const Snow = new SnowCanvas()
+
+// Set number of flakes (optional)
+// default: window.innerWidth / 6
+Snow.createSnowFlakes(2);
+
+const canvas = Snow.getCanvas(); // return HTMLCanvasElement
 document.body.appendChild(canvas);
 ```
 
