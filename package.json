@@ -1,36 +1,27 @@
 {
   "name": "snow-cvs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "module": "dist/index.esm.js",
   "browser": "dist/index.js",
-  "description": "nice snow animation using canvas",
-  "main": "snowball.js",
+  "main": "dist/index.js",
+  "description": "Lightweight snow animation library using canvas",
   "author": "Haikel Fazzani",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server",
-    "build": "rmdir /S /Q dist && rollup --config"
+    "dev": "servino",
+    "build": "rmdir /S /Q dist && rollup -c"
   },
-  "devDependencies": {
-    "lite-server": "^2.5.4",
-    "rollup": "^1.29.1",
-    "rollup-plugin-terser": "^5.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/haikelfazzani/snow-cvs.git"
-  },
+  "repository": "https://github.com/haikelfazzani/snow-cvs.git",
   "homepage": "https://github.com/haikelfazzani/snow-cvs",
-  "bugs": {
-    "url": "https://github.com/haikelfazzani/snow-cvs/issues",
-    "email": "haikel.fazzani@gmail.com"
-  },
+  "bugs": "https://github.com/haikelfazzani/snow-cvs/issues",
   "keywords": [
     "canvas",
     "snow",
-    "animation",
-    "umd",
-    "esm"
-  ]
+    "animation"
+  ],
+  "devDependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "servino": "0.0.10"
+  }
 }

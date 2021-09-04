@@ -1,11 +1,14 @@
 node_modules/
-
-.gitignore
-package.json
-
 tests/
 demo/
-snow.js
 
+snow.js
+.vscode
+.cache
+.gitignore
+
+package-lock.json
 rollup.config.js
 bs-config.json
+
+Readme.md
